@@ -3,11 +3,49 @@ body {
     padding:0;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 header {
+    position: relative;
     border-bottom: solid 1px #EEEEEE;
+    line-height: 60px;
+    height: 60px;
+    font-size: 1em;
+}
+header a {
+    display: inline-block;
+}
+header .logo {
+    position: absolute;
+    top:0;
+    left:0;
+    padding: 0 15px;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+header nav {
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
 }
 header nav ul {
     list-style: none;
+    width: auto;
+    padding: 0 15px;
+    margin: 0;
+}
+header nav ul li {
+    float: left;
+    width: auto;
+    padding: 0 10px;
+}
+header nav ul li a {
+    color: slategray;
+}
+header nav ul li a:hover {
+    color: darkslategray;
 }
 
 main {
