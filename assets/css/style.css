@@ -1,0 +1,22 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+header {
+    border-bottom: solid 1px #EEEEEE;
+}
+header nav ul {
+    list-style: none;
+}
+
+main {
+    background-color: #F6F6F6;
+}
+
+footer {
+    border-bottom: solid 1px #EEEEEE;
+}
+footer nav ul {
+    list-style: none;
+}
