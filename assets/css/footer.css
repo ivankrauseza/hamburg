@@ -1,6 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
 footer {
-    border-bottom: solid 1px #EEEEEE;
+    border-top: solid 1px #EEEEEE;
+    background:#F9F9F9;
 }
+footer .logo {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    padding: 0 15px;
+    font-size: 2.5em;
+    line-height: 60px;
+    color: #333333;
+    font-weight: 200;
+}
+footer .logo span {
+    font-weight: 400;
+    color: teal;
+}
+footer nav {
+    display: flex;
+    background-color: orange;
+}
+
 footer nav ul {
+    width: auto;
+    margin: 0;
     list-style: none;
+    padding:15px;
+    box-sizing: border-box;
+}
+footer nav ul li {
+    float: left;
+    width: auto;
+}
+
+/*GENERAL SITE LINKS*/
+footer nav.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer nav.links ul {
+    background-color: red;
+}
+footer nav.links ul li a {
+    font-size: 1em;
+    margin: 0 5px;
+}
+
+/*SOCIAL MEDIA LINKS*/
+footer nav.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+footer nav.social ul {
+    background-color: blue;
+}
+footer nav.social ul li {
+    text-align: center;
+    margin: 0 5px;
+    display: flex;
+
+}
+footer nav.social ul li a {
+    transform: scale(1);
+    font-weight: 400;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: slategray;
+    color: white;
+    transition: 0.3s;
+}
+footer nav.social ul li a:hover {
+    transform: scale(1.2);
+    background-color: darkslategray;
+}
+footer nav.social ul li.fb a:hover {
+    background-color: navy;
+}
+footer nav.social ul li.ig a:hover {
+    background-color: black;
+}
+footer nav.social ul li.yt a:hover {
+    background-color: red;
 }
