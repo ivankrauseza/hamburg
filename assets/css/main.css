@@ -6,3 +6,15 @@ main .hero {
     padding: 15px;
     box-sizing: border-box;
 }
+
+ul.flexparent {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 1em;
+}
+ul.flexparent > li {
+    color: blueviolet;
+}
